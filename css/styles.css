@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root{
+    --color-red:#F03C42;
+    --color-blue:#222374;
+    --color-white:#fff;
+    --bg-light-gray:#CCCCCC;
+    --text-black:#000000;
+    --text-green:#02B814;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a, a:hover{
+    color: unset;
+    text-decoration: none;
+}
+
+header{
+    background-color: var(--color-red);
+    height: 100px;
+    width: 1200;
+    display: flex;
+    padding: 0 15px;
+    display: flex;
+}
+
+nav h3 {
+    text-align: center;
+    color:var(--color-white);
+    font-size: 18px;
+    margin-top: 41px;
+    display: flex;
+    
+}
+.description img {
+    margin-left: 955px;
+    margin-top: -30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 1px;
+  
+    
+}
+.description a {
+    display: flex;
+    text-align: center;
+    color:var(--color-white);
+    font-size: 14px;
+    margin-top: -25px;
+   
+   
+}
+.description{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+#meeting {
+    display: flex;
+    margin: auto;
+    background-color:var(--color-blue);
+    height: 418px;
+    align-items: center;
+    padding: 15px;          
+}
+#meeting h2{
+    color:var(--color-white);
+    font-size: 32px;
+    width: 700px;
+    
+    margin-bottom: 20px;
+}
+   
+.fitnees-space{
+    background-color:var(--bg-light-gray);
+    justify-content: space-between;
+    width: 960px;
+    height: 127px;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
+
+.card-comment{
+    color: var(--text-black);
+    flex-direction: column;
+    display: flex;
+    margin-top: 20px;   
+    margin: auto;
+    
+}
+.generic-section{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#modal {
+    display: flex;
+    margin: auto;
+    background-color:var(--color-white);
+    height: 880px;
+    align-items: center;
+    padding: 15px;          
+}
+#modal h2{
+    color:var(--color-red);
+    font-size: 32px;
+    width: 700px;
+    
+    margin-bottom: 20px;
+}
+   
+.active{
+    background-color:var(--color-blue);
+    justify-content: space-between;
+    width: 960px;
+    height: 106px;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    color: var(--color-white);
+}
+
+.generic-section{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.card-comment-act{
+    flex-direction: column;
+    display: flex;
+    margin-top: 20px;   
+    margin: auto;
+    
+}
+.footer-content img{
+    width: 30px;
+    height: 30px;
+    border-radius: 1px;
+       
+}
+footer{
+    padding: 60px;
+    height: 262px;
+    background-color:var(--text-black);
+    color: var(--color-white);
+    
+    align-items: center;
+}
+.footer-Intagram{
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-img{
+    
+    display: flex;
+    
+    flex-direction: column;
+    text-align: center;
+    
+}
+.footer-address{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+.footer-content a{
+    font-size: 14px;
+}
+.footer-content address{
+    font-size: 14px;
+}
